@@ -25,7 +25,7 @@ public class GitHubHover {
 //                .moveByOffset(200,0).release().perform();
 //        sleep(2000);
 //        $("#column-a").dragAndDropTo($("#column-b"));
-        actions().dragAndDropBy($("#column-a"), 200, 0).perform();
+        actions().dragAndDropBy($("#column-a"), 201, 0).perform();
 
         $$("#columns > div").first().shouldHave(text("B"));
     }
